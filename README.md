@@ -66,7 +66,7 @@ In this script, you can also allow or disallow multiple runs, and customize pre-
 
 In our paper, we studied the result on 10 benchmark datasets. For the public ones, we provide our few-shot seed sets and the whole dataset [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing). For the other datasets which require license for access, if you want the same set of few-shot seeds, please first get the license for the whole dataset and then ask the first author for the sampled few-shot seeds.
 
-Dataset | Domain | Included
+Dataset | Domain | Included [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing)
 --- | --- | --- 
 CoNLL | News | :heavy_check_mark:
 Onto | General | :x:
