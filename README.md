@@ -68,7 +68,7 @@ In our paper, we studied the result on 10 benchmark datasets. For the public one
 
 Dataset | Domain | Included [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing)
 --- | --- | --- 
-CoNLL | News | :heavy_check_mark:
+CoNLL | News | ✔️
 Onto | General | :x:
 WikiGold | General | :heavy_check_mark:
 WNUT17 | Social Media | :heavy_check_mark:
@@ -77,4 +77,4 @@ MITRestaurant | Review | :heavy_check_mark:
 SNIPS | Dialogue | :heavy_check_mark:
 ATIS | Dialogue | :heavy_check_mark:
 Multiwoz | Dialogue | :heavy_check_mark:
-i2b2 | Medical | :x:
+i2b2 | Medical | :x: 
