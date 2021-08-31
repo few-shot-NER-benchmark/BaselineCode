@@ -65,3 +65,16 @@ In this script, you can also allow or disallow multiple runs, and customize pre-
 ## Benchmark Datasets
 
 In our paper, we studied the result on 10 benchmark datasets. For the public ones, we provide our few-shot seed sets and the whole dataset [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing). For the other datasets which require license for access, if you want the same set of few-shot seeds, please first get the license for the whole dataset and then ask the first author for the sampled few-shot seeds.
+
+Dataset | Domain | Included
+--- | --- | --- 
+CoNLL | News | :heavy_check_mark:
+Onto | General | :x:
+WikiGold | General | :heavy_check_mark:
+WNUT17 | Social Media | :heavy_check_mark:
+MITMovie | Review | :heavy_check_mark:
+MITRestaurant | Review | :heavy_check_mark:
+SNIPS | Dialogue | :heavy_check_mark:
+ATIS | Dialogue | :heavy_check_mark:
+Multiwoz | Dialogue | :heavy_check_mark:
+i2b2 | Medical | :x:
