@@ -12,6 +12,7 @@ $ pip3 install -r requirements.txt
 
 ## Quickstart
 
+Download our models pre-trained on WiFine (Wikipedia) to ```src/pretrained_models/``` from [here](https://drive.google.com/drive/folders/1IkilP648x2aGVY1odo_NEDt7stTT5Z1H?usp=sharing).
 To load model pre-trained on WiFine (Wikipedia) and fine-tune on CONLL2003 dataset, 
 ```
 cd src
@@ -63,4 +64,4 @@ In this script, you can also allow or disallow multiple runs, and customize pre-
 
 ## Benchmark Datasets
 
-We provide our few-shot seed sets and the whole dataset at Google Drive:() for the public datasets. For the other datasets which require license for access, if you want the same set of few-shot seeds, please first get the license for the whole dataset and then ask the first author for the sampled few-shot seeds.
+In our paper, we studied the result on 10 benchmark datasets. For the public ones, we provide our few-shot seed sets and the whole dataset [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing). For the other datasets which require license for access, if you want the same set of few-shot seeds, please first get the license for the whole dataset and then ask the first author for the sampled few-shot seeds.
