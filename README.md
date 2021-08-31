@@ -68,7 +68,7 @@ In our paper, we studied the result on 10 benchmark datasets. For the public one
 
 Dataset | Domain | Included [here](https://drive.google.com/drive/folders/1CUTXJzhV1FvLjhA-gQtsofr7JBCEfP-A?usp=sharing)
 --- | --- | --- 
-CoNLL | News | ✔️
+CoNLL | News | :ballot_box_with_check:
 Onto | General | :x:
 WikiGold | General | :heavy_check_mark:
 WNUT17 | Social Media | :heavy_check_mark:
