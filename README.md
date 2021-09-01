@@ -35,11 +35,11 @@ If only one round is needed, you need to set the complete file names for trainin
 
 ### Allow Self-training
 
-The files for self-training is needed to be set
+Set the files for self-training by
 ```
 --unsup_text train.words --unsup_ner train.ner
 ```
-The labels in ''unsup_ner'' are not be used in training, but will be used for evaluation before self-training to give you a hint on how much potential you can get from self-training.
+The labels in ''unsup_ner'' are not used in training, but will be used for evaluation before self-training to give you a hint on how much potential you can get from self-training.
 
 To disallow self-training, just remove the two relevant flags.
 
