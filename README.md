@@ -1,22 +1,21 @@
 # Few-shot NER
-Code for paper: Few-Shot Named Entity Recognition: An Empirical Baseline Study
-https://arxiv.org/pdf/2012.14978.pdf
+The codebase to implement 3 baseline methods for the EMNLP paper [``Few-Shot Named Entity Recognition: An Empirical Baseline Study''](https://arxiv.org/pdf/2012.14978.pdf)
 
 ## Dependencies:
 
-Before running, you need to first install the required packages by typing following commands:
+To install the required packages by following commands:
 
 ```
 $ pip3 install -r requirements.txt
 ```
 
-## Quickstart
+## Quickstart with the Noisy Supervised Pre-trained Checkpoint
 
-Download our models pre-trained on WiFine (Wikipedia) to ```src/pretrained_models/``` from [here](https://drive.google.com/drive/folders/1IkilP648x2aGVY1odo_NEDt7stTT5Z1H?usp=sharing).
+Download the models pre-trained on WiFine (Wikipedia) to ```src/pretrained_models/``` from [checkpoint](https://drive.google.com/drive/folders/1IkilP648x2aGVY1odo_NEDt7stTT5Z1H?usp=sharing).
 To load model pre-trained on WiFine (Wikipedia) and fine-tune on CONLL2003 dataset, 
 ```
 cd src
-bash ./r_naiveft.sh
+bash ./train_lc.sh
 ```
 By default, this runs 10 rounds of experiments with different sets of 5-shot seeds and allows self-training on the whole dataset.
 
@@ -33,7 +32,7 @@ If only one round is needed, you need to set the complete file names for trainin
 --train_text train.words --train_ner train.ner 
 ```
 
-### Allow Self-training
+### Enable Self-training
 
 Set the files for self-training by
 ```
@@ -58,7 +57,7 @@ If you want to load the original pre-trained Roberta model (https://arxiv.org/ab
 
 You can use prototype-based methods by running the following command
 ```
-bash ./r_proto.sh
+bash ./train_proto.sh
 ```
 In this script, you can also allow or disallow multiple runs, and customize pre-trained models.
 
